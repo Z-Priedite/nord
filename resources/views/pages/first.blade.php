@@ -6,7 +6,7 @@ Build a house
 <body>
   @section('content')
   <div class="banner">
-    <h1 class="title">Kā Būtu Ja Tev Piederētu Sava Māja?</h1>
+    <h1 class="title">Kā nebūtu Ja Tev Piederētu Sava Māja?</h1>
     <h2 class="subtitle">ENERGO EFEKTĪVU KOKA MĀJU PROJEKTĒŠANA UN BŪVNIECĪBA</h2>
   </div>
   <div class="intro">
