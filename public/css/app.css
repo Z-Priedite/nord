@@ -1,0 +1,790 @@
+ /*Galvenie nosacījumi*/
+ * {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: white;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* nav */
+
+.navigation-bar {
+  position: sticky;
+  z-index: 1;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  opacity: 0.7;
+  background-color: #fff;
+  padding: 5px 140px;
+}
+
+.nav-items {
+align-self: flex-end;
+padding-bottom: 30px;
+}
+
+.nav-item {
+  padding: 0;
+  margin: 10px;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  height: 22px;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.5s;
+  color: black;
+}
+
+ .nav-item:hover {
+  color: #000;
+  border-bottom: 1px solid black;
+}
+
+.logo {
+  height: 150px;
+}
+
+ 
+/*first page*/
+/*Baneris*/
+
+.banner {
+  align-items: flex-start;
+  height: 510px;
+  background-image: url("../img/homes.jpg"); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+}
+
+.title {
+  font-size: 47px;
+  font-weight: 500;
+  color: #535251;
+  padding: 12px 30px 2px 30px;
+}
+
+.subtitle {
+  font-size: 16px;
+  font-weight: 400;
+  color: #535251;
+  padding: 0 30px 0 30px;
+}
+
+.white {
+color: honeydew;
+}
+
+.black {
+  color: black
+}
+
+.mood-title {
+  font-size: 23px;
+  font-weight: 500;
+  text-align: center;
+  color: #283747;
+}
+
+.intro {
+  font-size: 18px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 200px;
+  margin-left: 200px;
+  text-align: start;
+  color: #283747;
+}
+
+
+/*MOOD bildes*/
+
+.mood-photo {
+ height: 300px;
+ 
+}
+
+.shadow {
+  border: solid black 1px;
+  border-radius: 4px;
+  box-shadow: 20px 15px 30px RGBA(0, 0, 0, 0.6);
+  }
+
+.img-title {
+  font-weight: 300;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  color: #283747;
+}
+
+
+.mood {
+display: flex;
+flex-direction: column;
+margin-top: 50px;
+}
+
+.mood-section {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+ 
+
+/*Footer*/
+
+.landing-footer {
+  padding: 30px 0 0 0;
+  background-color: #ebedef;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.button {
+text-decoration: none;
+background-color: #e59866;
+padding: 10px 40px;
+border-radius: 4px;
+text-align: center;
+font-size: 20px;
+font-weight: 400;
+font: 1em sans-serif;
+}
+.button:hover {
+  background-color: #c07a4b;
+}
+
+.footer-text {
+  font-size: 18px;
+  font-weight: 300;
+  text-align: center;
+  padding: 50px 0 20px 0;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+
+/* about us page*/ 
+
+.page-title {
+  text-align: center;
+  color:grey;
+  font-size: 25px;
+  font-weight: 100;
+  padding: 55px 40px 55px 40px;
+  background-color: #ebedef;
+
+}
+
+.intro-about {
+  font-size: 18px;
+  margin-right: 100px;
+  text-align: start;
+  color: #283747;
+
+}
+
+.about-section {
+ display: flex;
+ justify-content: space-between;
+ margin-top: 50px;
+ margin-bottom: 40px;
+ margin-left: 200px;
+ margin-right: 200px;
+ 
+ 
+}
+
+.profile {
+  height: 250px;
+  align-items: flex-start;
+  margin-top: 30px;
+  border-radius: 50%;
+}
+
+.production-section {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 200px;
+  margin-left: 200px;
+  margin-bottom: 40px;
+}
+
+.production-img {
+  height: 340px;
+}
+
+/* Project page */
+
+.nounderline {
+  text-decoration: none !important;
+} 
+ 
+
+.description {
+font-size: 22px;
+font-weight: 500;
+color: #283747;
+margin-top: 40px;
+margin-bottom: 20px;
+text-align: center;
+}
+
+ /*bootstrap ieliktais*/
+
+.house-img {
+  height: 450px;
+  width: 750px;
+}
+
+
+ 
+.container {
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+  width: 55%;
+  max-width: 1200px;
+  margin: 40px auto;
+}
+
+.project-carousel {
+width: 750px;
+}
+
+.intro-project {
+  font-size: 18px;
+  margin-top: 50px;
+  margin-bottom: 60px;
+  margin-right: 200px;
+  margin-left: 200px;
+  text-align: start;
+  color: #283747;
+}
+
+.container-1, .container-2, .container-3 {
+display: flex;
+align-items: center;
+flex-direction: column;
+color: #283747;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+
+}
+
+ .formate {
+   margin-right: 40px;
+   margin-left: 40px;
+ }
+
+.img-128-105-183 {
+height: 150px;
+}
+
+
+.img-project {
+height: 441px;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+
+.back {
+  display: flex;
+  justify-content: flex-end;
+  }
+  
+  .button-back {
+  margin-right: 20px;
+  margin-bottom: 20px;
+  text-decoration: none;
+  background-color: #e59866;
+  padding: 10px 40px;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  font: 1em sans-serif;
+  }
+
+
+.click {
+position: relative;
+padding: 20px 25px;
+color: black;
+border-radius: 4px;
+}
+
+.nocolor {
+  color: black !important;
+}
+
+.click:hover {
+  background-color: #c07a4b;
+  color: black;
+}
+
+ 
+
+/*Contact page*/
+
+.img-contact {
+height: 470px;
+margin-top: 45px;
+ 
+}
+
+.container-contact {
+  display: flex;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+.end-text {
+  font-size: 23px;
+  font-weight: 500;
+  color: #283747;
+  margin-left: 40px;
+  margin-bottom: 20px;
+}
+
+.noborder {
+  border: none !important;
+}
+
+.form-control {
+  padding: 0px;
+}
+
+.location {
+  margin-left: 40px;
+}
+ 
+
+ .button-end {
+  text-decoration: none;
+  background-color: #e59866;
+  padding: 10px 134px;
+  margin-top: 13px;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  font: 1em sans-serif;
+ }
+
+ .button-end:hover {
+  background-color: #c07a4b;
+}
+
+
+ @media (max-width: 768px) {
+   
+  /* firts page responsive*/ 
+
+   .banner {
+     height: 300px;
+   }
+    
+   .title {
+     font-size: 27px;
+   }
+
+   .subtitle {
+     font-size: 16px;
+   }
+   
+   .intro {
+     font-size: 10px;
+     margin-right: 50px;
+     margin-left: 50px;
+   }
+
+   .mood-photo {
+     height: 200px;
+   }
+
+   .mood-section {
+     margin-left: 50px;
+     margin-right: 50px;
+   }
+
+
+/*about us page responsive*/
+
+.production-img {
+  height: 200px;
+}
+
+.profile {
+ height: 100px;
+}
+
+.about-section {
+  margin-left: 50px;
+  margin-right: 50px;
+   
+}
+
+.production-section {
+  margin-left: 50px;
+  margin-right: 50px;
+   
+}
+
+.intro-about {
+  font-size: 10px;
+  margin-right: 10px
+}
+
+/*project page responsive*/
+
+.container {
+  width: 62%;
+}
+
+ .house-img {
+   height: 300px;
+   width: 450px;
+ }
+
+ .img-project {
+   height: 300px;
+ }
+
+ .project-carousel {
+   width: 450px;
+ }
+
+.intro-project {
+  font-size: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.click {
+  padding: 6px 9px;
+}
+
+   /*contact page responsive*/
+   .img-contact {
+     height: 200px;
+   }
+
+   .end-text {
+     font-size: 15px;
+   }
+
+   .container-contact {
+     margin-left: 50px;
+     margin-right: 50px;
+   }
+   
+   .form-label {
+     font-size: 10px;
+   }
+
+    .button-end {
+      padding: 6px 80px;
+    }
+ }
+
+@media (max-width: 480px) {
+  /*nav*/
+
+  .logo {
+    height: 50px;
+  }
+
+.navigation-bar {
+  padding: 0 40px;
+}
+
+  .nav-item {
+    font-size: 6px;
+  }
+
+  /*first page responsive*/
+
+  .banner {
+    height: 120px;
+  }
+
+  .title {
+    display: none;
+  }
+
+ .subtitle {
+   display: none;
+ }
+
+.intro {
+  font-size: 5px;
+  margin-right: 40px;
+  margin-left: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.mood {
+  margin-top: 20px;
+}
+
+.mood-title {
+  font-size: 10px;
+}
+
+.mood-photo {
+  height: 80px;
+}
+
+.img-title {
+  font-size: 6px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.mood-section {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+/* footer*/
+ 
+.footer-text {
+  font-size: 6px;
+  padding: 20px 0 5px 0;
+  margin-bottom: 0;
+}
+
+.button {
+  padding: 5px 20px;
+  font-size: 7px;
+}
+
+/*about us page responsive */
+
+.page-title {
+  font-size: 10px;
+  padding: 20px 10px 20px 10px;
+}
+
+.profile {
+  height: 70px;
+  margin-top: 10px;
+}
+
+.production-img {
+  height: 100px;
+}
+
+.intro-about {
+  font-size: 5px;
+  margin-right: 10px;
+}
+
+.about-section {
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.production-section {
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+ 
+/*project page responsive*/
+
+.container {
+  width: 74%;
+}
+
+.house-img {
+  height: 150px;
+  width: 250px;
+}
+
+.img-project {
+  height: 150px;
+}
+
+.project-carousel {
+  width: 250px;
+}
+
+.intro-project {
+  font-size: 5px;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+h3 {
+  font-size: 12px;
+}
+
+.description {
+  font-size: 10px;
+}
+
+.img-128-105-183 {
+  height: 80px;
+}
+
+p {
+  font-size: 5px;
+}
+
+.formate {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.click {
+  padding: 3px 5px;
+}
+
+/*contact page responsive*/
+
+.img-contact {
+  height: 100px;
+  margin-top: 40px;
+}
+
+.end-text {
+  font-size: 10px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+
+.container-contact {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  width: 80%;
+}
+
+.form-label {
+  font-size: 9px;
+}
+
+.form-control {
+  font-size: 8px;
+}
+
+.location {
+  margin-left: 10px;
+}
+ 
+
+.button-end {
+  padding: 5px 20px;
+  font-size: 7px;
+}
+
+}
+ 
+ /*MODAL*/
+
+
+.name, .email, .tel, .text {
+  display: flex;
+  margin-bottom: 8px;
+  padding: 4px 0;
+   
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-top: 10px;
+}
+
+label {
+  padding-right: 6px;
+  width: 25%;
+  font-size: 15px;
+}
+
+.form-group {
+  display: flex;
+  padding: 8px 0;
+}
+
+.submit {
+  align-self: center;
+  margin-top: 20px;
+  border: 0;
+  padding: 7px 22px;
+  font-size: 13px;
+}
+
+
+.modal {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  display: none;
+  width: 100%;
+  height: 100%;
+  padding-top: 30px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal.modal-show {
+  display: block;
+}
+
+.modal-content {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 40%;
+  margin: auto;
+  padding: 35px;
+  background-color: #ebedef;
+  color: #535251;
+}
+
+.close {
+  align-self: flex-end;
+  padding-top: 4px 10px;
+  font-size: 15px;
+}
+
+.close:hover {
+  cursor: pointer;
+}
