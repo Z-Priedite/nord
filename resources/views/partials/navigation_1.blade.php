@@ -4,5 +4,6 @@
                 <a class="nav-item nounderline" href="/about">Par mums</a>
                 <a class="nav-item nounderline" href="/project">Projekti</a>
                 <a class="nav-item nounderline" href="/contact">Kontakti</a>
+                <a class="nav-item nounderline" href="/contact">Blog</a>
         </div>
 </nav>
